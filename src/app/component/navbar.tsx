@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { FaBeer } from 'react-icons/fa';
 import { IoCloudDownloadOutline } from "react-icons/io5";
 
 const Navbar = () => {
@@ -15,7 +14,7 @@ const Navbar = () => {
     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
       <Link href={"/"} className="mr-5 hover:text-blue-600">Home</Link>
       <Link href={"#about"} className="mr-5 hover:text-blue-600">About</Link>
-      <Link href={"#"} className="mr-5 hover:text-blue-600">Skills</Link>
+      <Link href={"#skills"} className="mr-5 hover:text-blue-600">Skills</Link>
       <Link href={"#project"} className="mr-5 hover:text-blue-600">Projects</Link>
       <Link href={"#Contact"} className="mr-5 hover:text-blue-600">Contact</Link>
     </nav>

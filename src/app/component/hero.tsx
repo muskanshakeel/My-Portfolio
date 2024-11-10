@@ -2,8 +2,8 @@
 import Image from "next/image";
 import React from "react";
 import Typewriter from 'typewriter-effect';
-import dynamic from 'next/dynamic';
 import Link from "next/link";
+import MyPicture from "../../../public/img3.jpg"
 
 const Hero = () => {
     return (
@@ -24,7 +24,7 @@ const Hero = () => {
             </h1>
             <div className="w-[100px] h-[2px] bg-blue-700"></div>
             <p className="mb-8 leading-relaxed">
-            I’m Muskan Shakeel, an undergraduate pharmacy student, front-end developer, and AI enthusiast. With a foundation in pharmaceutical sciences, experience in web development, and a focus on Generative AI, I aim to create innovative solutions in patient care and drug discovery.
+            {`I’m Muskan Shakeel, an undergraduate pharmacy student, front-end developer, and AI enthusiast. With a foundation in pharmaceutical sciences, experience in web development, and a focus on Generative AI, I aim to create innovative solutions in patient care and drug discovery.`}
             </p>
             <div className="flex justify-center">
               <Link href={"#Contact"}>
@@ -40,7 +40,7 @@ const Hero = () => {
               alt="hero"
               width={500}
               height={500}
-              src={require('../../../public/img3.jpg')}
+              src={MyPicture}
             />
           </div>
         </div>

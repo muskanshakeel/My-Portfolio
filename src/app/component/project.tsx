@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { RiFacebookFill } from "react-icons/ri";
+import Store from "../../../public/Screenshot (60).png";
+import Bakery from "../../../public/sweet delights.png";
+import Resume from "../../../public/resume builder2.png";
 
 const Project = () => {
     return (
@@ -21,21 +23,21 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require('../../../public/resume builder2.png')}
+            src={Store}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
-              RESUME BUILDER PROJECT
+              FURNITURE STORE PROJECT
             </h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-              Shareable Resume Builder
+              Furniture Store
             </h1>
             <p className="leading-relaxed line-clamp-3">
-            This is a shareable resume builder project I created to help users easily design and share professional resumes with a simple, intuitive interface.
+            {`This is an online furniture store project I created to provide users with an easy and intuitive shopping experience.`}
             </p>
-            <Link target="_blank" href={"https://muskanshakeel.github.io/Hackathon-Milestones-5/"}>
+            <Link target="_blank" href={"https://spiffy-jalebi-31b436.netlify.app"}>
             <p className="leading-relaxed text-blue-500 hover:underline">
-             View Project..
+             {`View Project..`}
             </p>
             </Link>
           </div>
@@ -47,7 +49,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require('../../../public/sweet delights.png')}
+            src={Bakery}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -57,11 +59,11 @@ const Project = () => {
               Sweet Delights Bakery
             </h1>
             <p className="leading-relaxed line-clamp-3">
-            This is a bakery website I created for sweet lovers to order and enjoy delicious treats with a user-friendly menu and contact form.
+            {`This is a bakery website I created for sweet lovers to order and enjoy delicious treats with a user-friendly menu and contact form.`}
             </p>
             <Link target="_blank" href={"https://muskanshakeel.github.io/Sweet-Delights-Bakery/"}>
             <p className="leading-relaxed text-blue-500 hover:underline">
-             View Project..
+             {`View Project..`}
             </p>
             </Link>
           </div>
@@ -73,7 +75,7 @@ const Project = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require('../../../public/resume builder2.png')}
+            src={Resume}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -83,11 +85,11 @@ const Project = () => {
               Shareable Resume Builder
             </h1>
             <p className="leading-relaxed line-clamp-3">
-            This is a shareable resume builder project I created to help users easily design and share professional resumes with a simple, intuitive interface.
+           {` This is a shareable resume builder project I created to help users easily design and share professional resumes with a simple, intuitive interface.`}
             </p>
             <Link target="_blank" href={"https://muskanshakeel.github.io/Hackathon-Milestones-5/"}>
             <p className="leading-relaxed text-blue-500 hover:underline">
-             View Project..
+             {`View Project..`}
             </p>
             </Link>
           </div>

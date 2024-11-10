@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Picture from "../../../public/picture.jpg";
 
 const About = () => {
     return(
@@ -10,7 +11,7 @@ const About = () => {
       <Image
         className="object-cover object-center rounded mx-auto w-[300px] h-[400px]"
         alt="hero"
-        src={require("../../../public/img3.jpg")}
+        src={Picture}
         width={300}
         height={500}
       />
@@ -20,9 +21,10 @@ const About = () => {
         About Me
       </h1>
       <p className="mb-5 leading-relaxed">
-      Hello! I’m an undergraduate pharmacist with a strong foundation in healthcare and a growing interest in technology. I completed my matriculation at Eaton Public School and my intermediate studies at County Girls College. My professional journey includes interning at both Civil Hospital and NICVD Hospital as an internee pharmacist, where I gained practical experience in patient care and pharmacy operations. Additionally, I contributed as a WHO surveyor for the polio eradication initiative, supporting global health efforts.
+      {`Hello! I’m an undergraduate pharmacist with a strong foundation in healthcare and a growing interest in technology. I completed my matriculation at Eaton Public School and my intermediate studies at County Girls College. My professional journey includes interning at both Civil Hospital and NICVD Hospital as an internee pharmacist, where I gained practical experience in patient care and pharmacy operations. Additionally, I contributed as a WHO surveyor for the polio eradication initiative, supporting global health efforts.`}
       <br/>
-      Currently, I am expanding my skills by pursuing studies in Generative AI, aiming to merge my knowledge of pharmacy with cutting-edge technologies to make a positive impact in both healthcare and tech fields.
+      <br/>
+      {`Currently, I am expanding my skills by pursuing studies in Generative AI, aiming to merge my knowledge of pharmacy with cutting-edge technologies to make a positive impact in both healthcare and tech fields.`}
       </p>
       <div className="flex justify-center">
         <a href={"/cv resume.pdf"}>

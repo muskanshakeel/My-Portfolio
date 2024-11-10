@@ -3,7 +3,7 @@ import { CiSquareCheck } from "react-icons/ci";
 
 const Skills = () => {
     return(
-        <div>
+        <div id="skills">
             <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
@@ -14,9 +14,9 @@ const Skills = () => {
         My Skills
       </h1>
     </div>
-    <div className="flex flex-wrap -m-4">
+    <div className="flex flex-wrap -m-4 -mt-[5rem]">
         {/* skills */}
-      <div className="p-4 md:w-1/3">
+      <div className="p-4 w-[100%] md:w-1/3">
         <div className="flex rounded-lg h-full p-8 flex-col">
           <div className="flex items-center mb-3">
             <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
@@ -27,10 +27,111 @@ const Skills = () => {
             </h2>
           </div>
           <div className="flex-grow">
-            <div className="relative h-1 w-full bg-gray-300 rounded-xl"></div>
-            <div className="absolute bg-blue-500 h-1 rounded-xl w-[24%]">
+            <div className="relative h-1 w-full bg-gray-300 rounded-xl">
+            <div className="absolute bg-blue-500 h-1 rounded-xl w-[95%]">
+            </div>
+            </div>
+            <p className="font-bold text-blue-500 text-right">95%</p>
+          </div>
+        </div>
+      </div>
+           {/* skills */}
+           <div className="p-4 w-[100%] md:w-1/3">
+        <div className="flex rounded-lg h-full p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+            <CiSquareCheck className="text-xl font-bold"/>
+            </div>
+            <h2 className="text-gray-900 text-lg title-font font-medium">
+              CSS
+            </h2>
+          </div>
+          <div className="flex-grow">
+            <div className="relative h-1 w-full bg-gray-300 rounded-xl">
+            <div className="absolute bg-blue-500 h-1 rounded-xl w-[90%]">
+            </div>
+            </div>
+            <p className="font-bold text-blue-500 text-right">90%</p>
+          </div>
+        </div>
+      </div>
+           {/* skills */}
+           <div className="p-4 w-[100%] md:w-1/3">
+        <div className="flex rounded-lg h-full p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+            <CiSquareCheck className="text-xl font-bold"/>
+            </div>
+            <h2 className="text-gray-900 text-lg title-font font-medium">
+              TypeScript
+            </h2>
+          </div>
+          <div className="flex-grow">
+            <div className="relative h-1 w-full bg-gray-300 rounded-xl">
+            <div className="absolute bg-blue-500 h-1 rounded-xl w-[100%]">
+            </div>
             </div>
             <p className="font-bold text-blue-500 text-right">100%</p>
+          </div>
+        </div>
+      </div>
+           {/* skills */}
+           <div className="p-4 w-[100%] md:w-1/3">
+        <div className="flex rounded-lg h-full p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+            <CiSquareCheck className="text-xl font-bold"/>
+            </div>
+            <h2 className="text-gray-900 text-lg title-font font-medium">
+              NEXT.JS
+            </h2>
+          </div>
+          <div className="flex-grow">
+            <div className="relative h-1 w-full bg-gray-300 rounded-xl">
+            <div className="absolute bg-blue-500 h-1 rounded-xl w-[75%]">
+            </div>
+            </div>
+            <p className="font-bold text-blue-500 text-right">75%</p>
+          </div>
+        </div>
+      </div>
+           {/* skills */}
+           <div className="p-4 w-[100%] md:w-1/3">
+        <div className="flex rounded-lg h-full p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+            <CiSquareCheck className="text-xl font-bold"/>
+            </div>
+            <h2 className="text-gray-900 text-lg title-font font-medium">
+              Problem Solving
+            </h2>
+          </div>
+          <div className="flex-grow">
+            <div className="relative h-1 w-full bg-gray-300 rounded-xl">
+            <div className="absolute bg-blue-500 h-1 rounded-xl w-[91%]">
+            </div>
+            </div>
+            <p className="font-bold text-blue-500 text-right">91%</p>
+          </div>
+        </div>
+      </div>
+           {/* skills */}
+           <div className="p-4 w-[100%] md:w-1/3">
+        <div className="flex rounded-lg h-full p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+            <CiSquareCheck className="text-xl font-bold"/>
+            </div>
+            <h2 className="text-gray-900 text-lg title-font font-medium">
+              Time Management
+            </h2>
+          </div>
+          <div className="flex-grow">
+            <div className="relative h-1 w-full bg-gray-300 rounded-xl">
+            <div className="absolute bg-blue-500 h-1 rounded-xl w-[93%]">
+            </div>
+            </div>
+            <p className="font-bold text-blue-500 text-right">93%</p>
           </div>
         </div>
       </div>
